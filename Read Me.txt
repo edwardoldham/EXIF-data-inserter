@@ -1,0 +1,17 @@
+# EXIF Data Inserter
+
+This script is designed to add or modify EXIF metadata in JPEG images. It is especially useful for organizing photo libraries or correcting missing date/time fields for proper sorting (e.g., in Google Photos).
+
+## ✨ Features
+
+- Insert or update EXIF `DateTimeOriginal` and `CreateDate`
+- Batch processing of image files
+- Simple terminal-based usage
+- Supports JPEG files
+
+## 🚀 Usage
+
+```bash
+python insert_exif.py /path/to/folder 2023:12:31 12:00:00
+
+
